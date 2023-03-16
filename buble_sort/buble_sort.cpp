@@ -62,3 +62,12 @@ void display() {											// procedur untuk menampilkan hasil
 	}
 	cout << endl;											// output baris kosong
 }
+
+int main() {
+	input();
+	unsorted();
+	bubbleSortArray();
+	display();
+
+	return 0;
+}
